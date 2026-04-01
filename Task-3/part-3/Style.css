@@ -1,0 +1,87 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eae5e5;
+}
+
+.header {
+    background-color: #4b6885;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 18px;
+}
+
+.section {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 15px;
+    background-color: #dcdcdc;
+}
+
+.box {
+    border: 2px solid #555;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+.skill {
+    border: 2px solid #555;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+.project {
+    border: 2px solid #555;
+    margin: 10px 0;
+    padding: 10px;
+    background: #efefef;
+}
+
+.viewbtn {
+    background-color: #247fdb;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+.btn {
+    background-color: #247fdb;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 2px solid #555;
+    box-sizing: border-box;
+
+}
+
+textarea {
+    height: 100px;
+}
+
+.footer {
+    background-color: #4b6885;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
