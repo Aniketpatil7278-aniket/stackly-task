@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(43,46,86);
+    margin: 10px;
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    height: 100vh;
+
+}
+
+.layout {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(3,150px);
+    gap: 10px;
+
+}
+
+.box{
+    border: 1px black;
+    border-radius: 5px;
+}
+
+.green{
+    background-color: rgb(109,190,79);
+}
+.red{
+    background-color: rgb(236,52,55);
+}
+
+.orange{
+    background-color: rgb(251,178,47);
+}
+
+.tall{
+    grid-row: span 3;
+}
+
+.wide{
+    grid-column: span 2;
+}
+
+.tall-right{
+    grid-row: span 2;
+}
+
