@@ -110,6 +110,7 @@ section {
     padding: 15px 30px;
     background-color: rgb(238, 238, 238);
     box-shadow: 10px 0px 13px -7px #000000;
+    text-align: justify;
 }
 
 .projects-box div:hover {
@@ -195,7 +196,7 @@ svg{
         text-align: center;
     }
     svg{
-        display: block;
+        display: inline;
     }
     .hero{
         padding: 50px 15px;
@@ -218,5 +219,5 @@ svg{
     .skill-box div{
         width: 80%;
     }
-    
+
 }   
